@@ -15,7 +15,7 @@ services:
     volumes:
       - .:/usr/src/habitica
       - /usr/src/habitica/node_modules
-      - /usr/src/habitica/website/client/node_modulesarjunrbery/habitica
+      - /usr/src/habitica/website/client/node_modules
   server:
     build:
       context: .
